@@ -1,6 +1,6 @@
 import React from 'react'
 import icon from '../images/icon.ico'
-import image from '../images/image_1.jpeg'
+import image from '../images/image_1.jpg'
 
 const Main = () => {
 	return (

@@ -3,7 +3,7 @@
 	margin-top: 50px;
 	width: 400px;
 	padding: 40px;
-	background: rgba(0, 0, 0, 0.5);
+	background: #e1e1e1;
 	box-shadow: 0 15px 25px rgba(0, 15px, 25px, 0.6);
 	border-radius: 10px;
 	margin-bottom: 100px;
@@ -12,7 +12,7 @@
 .header__box h2 {
 	margin: 0 0 30px;
 	padding: 0;
-	color: #fff;
+	color: #000;
 	text-align: center;
 }
 
@@ -24,10 +24,10 @@
 	width: 100%;
 	padding: 10px 0;
 	font-size: 16px;
-	color: #fff;
+	color: #000;
 	margin-bottom: 30px;
 	border: none;
-	border-bottom: 1px solid #fff;
+	border-bottom: 1px solid #000;
 	outline: none;
 	background: transparent;
 }
@@ -38,7 +38,7 @@
 	left: 0;
 	padding: 10px 0;
 	font-size: 16px;
-	color: #fff;
+	color: #000;
 	pointer-events: none;
 	transition: 0.5s;
 }
@@ -47,7 +47,7 @@
 .header__box .header__box-user input:valid ~ label {
 	top: -20px;
 	left: 0;
-	color: red;
+	color: #000;
 	font-size: 12px;
 }
 
@@ -55,7 +55,7 @@
 	position: relative;
 	display: inline-block;
 	padding: 10px 20px;
-	color: red;
+	color: #000;
 	font-size: 16px;
 	text-decoration: none;
 	text-transform: uppercase;

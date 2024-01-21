@@ -1,6 +1,13 @@
-import React from 'react'
+import React, { useState } from 'react'
+import Modal from './Modal'
 
 const Form = () => {
+	const [modalInfoIsOpen, setModalInfoOpen] = useState(false)
+
+	const handleModalToggle = () => {
+		setModalInfoOpen(!modalInfoIsOpen)
+	}
+
 	return (
 		<>
 			<div className='header__box'>
@@ -18,7 +25,7 @@ const Form = () => {
 						<input type='email' name='' required='' />
 						<label>Email</label>
 					</div>
-					<a href='#'>
+					<a onClick={handleModalToggle}>
 						<span></span>
 						<span></span>
 						<span></span>
@@ -27,6 +34,12 @@ const Form = () => {
 					</a>
 				</form>
 			</div>
+			<Modal isOpen={modalInfoIsOpen} onClose={handleModalToggle}>
+				<p modal__text>
+					Vielen Dank, dass Sie sich beworben haben. Wir werden uns in Kürze mit
+					Ihnen in Verbindung setzen.
+				</p>
+			</Modal>
 		</>
 	)
 }
