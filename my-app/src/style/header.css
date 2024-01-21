@@ -1,0 +1,22 @@
+.container {
+	max-width: 1200px;
+	margin: 0 auto;
+}
+
+.logo {
+	display: block;
+	margin: 0 auto;
+	width: 150px;
+	height: 150px;
+}
+
+.header__title {
+	text-align: center;
+	font-size: 26px;
+	font-weight: 700;
+}
+
+.header__descr {
+	margin-top: 15px;
+	text-align: center;
+}

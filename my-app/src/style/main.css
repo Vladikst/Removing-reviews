@@ -1,0 +1,38 @@
+.help__image img {
+	width: 100%;
+	margin: 50px auto;
+	display: block;
+}
+
+.help__descr {
+	font-size: 17px;
+}
+
+.help__advantages {
+	margin-top: 70px;
+	font-weight: 700;
+	font-size: 25px;
+}
+
+.help__advantages-text {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	font-weight: 300;
+	list-style-type: none;
+	margin-top: 10px;
+}
+
+.help__advantages-text img {
+	margin-top: 20px;
+}
+
+.help__advantages-text p {
+	margin-top: 10px;
+}
+
+.help__guarantee {
+	margin-top: 100px;
+	font-size: 40px;
+	font-weight: 900;
+}
