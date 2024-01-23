@@ -35,10 +35,10 @@ const Form = () => {
 				</form>
 			</div>
 			<Modal isOpen={modalInfoIsOpen} onClose={handleModalToggle}>
-				<p modal__text>
+				<div modal__text>
 					Vielen Dank, dass Sie sich beworben haben. Wir werden uns in Kürze mit
 					Ihnen in Verbindung setzen.
-				</p>
+				</div>
 			</Modal>
 		</>
 	)
