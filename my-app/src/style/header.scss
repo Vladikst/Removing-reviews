@@ -1,8 +1,3 @@
-.container {
-	max-width: 1200px;
-	margin: 0 auto;
-}
-
 .logo {
 	display: block;
 	margin: 0 auto;
@@ -19,4 +14,15 @@
 .header__descr {
 	margin-top: 15px;
 	text-align: center;
+}
+
+@media screen and (max-width: 768px) {
+	.header__title {
+		font-size: 18px;
+	}
+	.header__descr {
+		text-align: left;
+		font-size: 14px;
+		margin-top: 50px;
+	}
 }

@@ -4,43 +4,49 @@
 	width: 400px;
 	padding: 40px;
 	background: #e1e1e1;
-	box-shadow: 0 15px 25px rgba(0, 15px, 25px, 0.6);
+	box-shadow: 0 15px 25px rgba(0, 15, 25, 0.6);
 	border-radius: 10px;
 	margin-bottom: 100px;
 }
 
-.header__box h2 {
-	margin: 0 0 30px;
-	padding: 0;
-	color: #000;
-	text-align: center;
+.header__box {
+	h2 {
+		margin: 0 0 30px;
+		padding: 0;
+		color: #000;
+		text-align: center;
+	}
 }
 
 .header__box .header__box-user {
 	position: relative;
 }
 
-.header__box .header__box-user input {
-	width: 100%;
-	padding: 10px 0;
-	font-size: 16px;
-	color: #000;
-	margin-bottom: 30px;
-	border: none;
-	border-bottom: 1px solid #000;
-	outline: none;
-	background: transparent;
+.header__box .header__box-user {
+	input {
+		width: 100%;
+		padding: 10px 0;
+		font-size: 16px;
+		color: #000;
+		margin-bottom: 30px;
+		border: none;
+		border-bottom: 1px solid #000;
+		outline: none;
+		background: transparent;
+	}
 }
 
-.header__box .header__box-user label {
-	position: absolute;
-	top: 0;
-	left: 0;
-	padding: 10px 0;
-	font-size: 16px;
-	color: #000;
-	pointer-events: none;
-	transition: 0.5s;
+.header__box .header__box-user {
+	label {
+		position: absolute;
+		top: 0;
+		left: 0;
+		padding: 10px 0;
+		font-size: 16px;
+		color: #000;
+		pointer-events: none;
+		transition: 0.5s;
+	}
 }
 
 .header__box .header__box-user input:focus ~ label,
@@ -154,5 +160,15 @@
 	50%,
 	100% {
 		bottom: 100%;
+	}
+}
+
+@media screen and (max-width: 457px) {
+	.header__box {
+		h2 {
+			font-size: 20px;
+		}
+		width: 323px;
+		padding: 28px;
 	}
 }

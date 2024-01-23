@@ -13,6 +13,7 @@ const Header = () => {
 				<div className='header__descr'>
 					Negative Bewertungen können Ihrem Unternehmen schaden. Sie können
 					Kunden abschrecken, zu Umsatzeinbußen führen und den Ruf beschädigen.
+					<br />
 					Lassen Sie uns Ihnen helfen, negative Bewertungen zu entfernen und Ihr
 					Unternehmen wieder auf Kurs zu bringen.
 				</div>
