@@ -26,19 +26,19 @@ const Form = () => {
 						<label>Email</label>
 					</div>
 					<a onClick={handleModalToggle}>
-						<span></span>
-						<span></span>
-						<span></span>
-						<span></span>
+						<span className='btn-anim1'></span>
+						<span className='btn-anim2'></span>
+						<span className='btn-anim3'></span>
+						<span className='btn-anim4'></span>
 						Einreichen
 					</a>
 				</form>
 			</div>
 			<Modal isOpen={modalInfoIsOpen} onClose={handleModalToggle}>
-				<p modal__text>
+				<div modal__text>
 					Vielen Dank, dass Sie sich beworben haben. Wir werden uns in Kürze mit
 					Ihnen in Verbindung setzen.
-				</p>
+				</div>
 			</Modal>
 		</>
 	)
