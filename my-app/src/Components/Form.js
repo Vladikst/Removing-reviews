@@ -26,10 +26,10 @@ const Form = () => {
 						<label>Email</label>
 					</div>
 					<a onClick={handleModalToggle}>
-						<span></span>
-						<span></span>
-						<span></span>
-						<span></span>
+						<span className='btn-anim1'></span>
+						<span className='btn-anim2'></span>
+						<span className='btn-anim3'></span>
+						<span className='btn-anim4'></span>
 						Einreichen
 					</a>
 				</form>
