@@ -5,6 +5,7 @@ import Modal from './Modal'
 
 const Form = () => {
 	const [modalInfoIsOpen, setModalInfoOpen] = useState(false)
+	const [checkboxChecked, setCheckboxChecked] = useState(false)
 
 	const handleModalToggle = () => {
 		setModalInfoOpen(!modalInfoIsOpen)
@@ -88,9 +89,21 @@ const Form = () => {
 						) : null}
 					</div>
 
-					{/* // TODO тут будет чекбокс с конфд  */}
+					<div className='checkbox'>
+						<input
+							type='checkbox'
+							checked={checkboxChecked}
+							onChange={() => setCheckboxChecked(!checkboxChecked)}
+						/>
+						<div className='checkbox__text'>
+							Ich stimme zu{' '}
+							<a href=''>
+								Datenschutzbestimmungen, Allgemeine Geschäftsbedingungen
+							</a>
+						</div>
+					</div>
 
-					<button type='submit'>
+					<button type='submit' disabled={!checkboxChecked} className='btn'>
 						<span className='btn-anim1'></span>
 						<span className='btn-anim2'></span>
 						<span className='btn-anim3'></span>
